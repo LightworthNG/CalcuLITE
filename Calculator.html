@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Caluclator JavaScript </title>
+    <script type="text/javascript" src="functions.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Lightworth</h1>
+    </header>
+    <form name="calculator">
+        <h2>CalcuLite v1 </h2>
+        <p id="display"></p>
+        <div class="trig-1">
+             <input type="button" value="sin" id="sin" class="user_input" />
+             <input type="button" value="cos" id="cos" class="user_input" />
+             <input type="button" value="tan" id="tan" class="user_input" />
+             <input type="button" value="log10" id="log" class="user_input" />
+            <input type="button" value="exp" id="exponent" class="user_input" />
+        </div>
+        <div class="trig-2">
+            <input type="button" value="asin" id="asin" class="user_input" />
+            <input type="button" value="acos" id="acos" class="user_input" />
+            <input type="button" value="atan" id="atan" class="user_input" />
+            <input type="button" value="log" id="nat-log" class="user_input" />
+            
+            <input type="button" value="sqrt" id="atan" class="user_input" />
+            
+        </div>
+        <div class="general" >
+            
+         
+            <input type="button" value="(" id="open-bracket" class="user_input" />
+            <input type="button" value=")" id="close-bracket" class="user_input" />
+            <input type="button" value="clear" id="clear" class="display_controller" />
+        </div>
+        <div class="arithmetic">
+            <div class="row-1">
+                <input type="button" value="7" id="val7" class="user_input number" />
+                <input type="button" value="8" id="val8" class="user_input number" />
+                <input type="button" value="9" id="val9" class="user_input number" />
+                <input type="button" value="+" id="add" class="user_input" />
+            </div>
+            <div class="row-2">
+                <input type="button" value="4" id="val4" class="user_input number" />
+                <input type="button" value="5" id="val5" class="user_input number" />
+                <input type="button" value="6" id="val6" class="user_input number" />
+                <input type="button" value="-" id="subtract" class="user_input" />
+            </div>
+            <div class="row-3">
+                <input type="button" value="1" id="val1" class="user_input number" />
+                <input type="button" value="2" id="val2" class="user_input number" />
+                <input type="button" value="3" id="val3" class="user_input number" />
+                <input type="button" value="*" id="multiply" class="user_input" />
+            </div>
+            <div class="row-4">
+                <input type="button" value="." id="point" class="user_input number" />
+                <input type="button" value="0" id="val0" class="user_input number" />
+                <input type="button" value="/" id="Divide" class="user_input number" />
+                <input type="button" value="=" name="equal"  />
+            </div>
+        </div>
+        <div>
+            <small id="footnote">Created By: <a href="http://www.facebook.com/LightworthNG"> Lightworth</a></small>
+        </div>
+        
+    </form>
+</div>  
+<script type="text/javascript" src="controller.js"></script>
+</body>
+</html>
